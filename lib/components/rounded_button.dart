@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class welcomeScreenButton extends StatelessWidget {
-  const welcomeScreenButton({
+class RoundedButton extends StatelessWidget {
+  const RoundedButton({
     Key key,
     this.colour,
     this.buttonText,

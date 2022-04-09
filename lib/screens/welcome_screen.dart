@@ -76,14 +76,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             SizedBox(
               height: 48.0,
             ),
-            welcomeScreenButton(
+            RoundedButton(
               colour: Colors.lightBlueAccent,
               buttonText: 'Log In',
               onPressed: () {
                 Navigator.pushNamed(context, LoginScreen.id);
               },
             ),
-            welcomeScreenButton(
+            RoundedButton(
               colour: Colors.blueAccent,
               buttonText: 'Register',
               onPressed: () {
